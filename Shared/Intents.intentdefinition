@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>INEnums</key>
+	<array/>
+	<key>INIntentDefinitionModelVersion</key>
+	<string>1.2</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>w2TZpQ</string>
+	<key>INIntentDefinitionSystemVersion</key>
+	<string>24E263</string>
+	<key>INIntentDefinitionToolsBuildVersion</key>
+	<string>16E140</string>
+	<key>INIntentDefinitionToolsVersion</key>
+	<string>16.3</string>
+	<key>INIntents</key>
+	<array>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>information</string>
+			<key>INIntentConfigurable</key>
+			<true/>
+			<key>INIntentDescription</key>
+			<string>To get random food tenant from the spinner on-t</string>
+			<key>INIntentDescriptionID</key>
+			<string>RfEoMZ</string>
+			<key>INIntentManagedParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Get Random Food Tenant</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>Oia09y</string>
+					<key>INIntentParameterCombinationUpdatesLinked</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>INIntentName</key>
+			<string>GetRandomFoodTenant</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationIsPrimary</key>
+					<true/>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>Get Random Food Tenant</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>R8g9LO</string>
+				</dict>
+			</dict>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Get Random Food Tenant</string>
+			<key>INIntentTitleID</key>
+			<string>2OrfGM</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>Open</string>
+		</dict>
+	</array>
+	<key>INTypes</key>
+	<array/>
+</dict>
+</plist>

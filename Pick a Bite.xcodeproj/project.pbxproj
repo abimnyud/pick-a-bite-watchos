@@ -6,14 +6,186 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AAFAC3732DDA46DE00C44E22 /* Pick a Bite Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AAFAC3692DDA46DD00C44E22 /* Pick a Bite Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAFAC39B2DDA4A3F00C44E22 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFAC39A2DDA4A3F00C44E22 /* Intents.framework */; };
+		AAFAC3A22DDA4A3F00C44E22 /* Pick a Bite Intent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AAFAC3982DDA4A3F00C44E22 /* Pick a Bite Intent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAFAC40B2DDAB17600C44E22 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFAC39A2DDA4A3F00C44E22 /* Intents.framework */; };
+		AAFAC4122DDAB17600C44E22 /* Pick a Bite iOS Intent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AAFAC40A2DDAB17600C44E22 /* Pick a Bite iOS Intent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFAC3712DDA46DE00C44E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFAC34D2DDA467E00C44E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFAC3682DDA46DD00C44E22;
+			remoteInfo = "Pick a Bite Watch Watch App";
+		};
+		AAFAC3A02DDA4A3F00C44E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFAC34D2DDA467E00C44E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFAC3972DDA4A3F00C44E22;
+			remoteInfo = "Pick a Bite Watch Intent";
+		};
+		AAFAC4102DDAB17600C44E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFAC34D2DDA467E00C44E22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFAC4092DDAB17600C44E22;
+			remoteInfo = "Pick a Bite iOS Intent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAFAC3772DDA46DE00C44E22 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AAFAC3732DDA46DE00C44E22 /* Pick a Bite Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3A72DDA4A3F00C44E22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAFAC3A22DDA4A3F00C44E22 /* Pick a Bite Intent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3D32DDA4F9800C44E22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAFAC4122DDAB17600C44E22 /* Pick a Bite iOS Intent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC4052DDAB15000C44E22 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		AAFAC3552DDA467E00C44E22 /* Pick a Bite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick a Bite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFAC3692DDA46DD00C44E22 /* Pick a Bite Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick a Bite Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFAC3982DDA4A3F00C44E22 /* Pick a Bite Intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pick a Bite Intent.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFAC39A2DDA4A3F00C44E22 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		AAFAC40A2DDAB17600C44E22 /* Pick a Bite iOS Intent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pick a Bite iOS Intent.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AAFAC3A62DDA4A3F00C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite Intent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AAFAC3972DDA4A3F00C44E22 /* Pick a Bite Intent */;
+		};
+		AAFAC3A92DDA4A6D00C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite Watch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IntentHandler.swift,
+			);
+			target = AAFAC3682DDA46DD00C44E22 /* Pick a Bite Watch */;
+		};
+		AAFAC3B02DDA4B0800C44E22 /* Exceptions for "Shared" folder in "Pick a Bite Watch" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIntentVocabulary.plist,
+				GetRandomFoodTenantIntentHandler.swift,
+				Intents.intentdefinition,
+			);
+			target = AAFAC3682DDA46DD00C44E22 /* Pick a Bite Watch */;
+		};
+		AAFAC3BA2DDA4C6700C44E22 /* Exceptions for "Shared" folder in "Pick a Bite Intent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIntentVocabulary.plist,
+				GetRandomFoodTenantIntentHandler.swift,
+				Intents.intentdefinition,
+			);
+			target = AAFAC3972DDA4A3F00C44E22 /* Pick a Bite Intent */;
+		};
+		AAFAC3F22DDAAD4700C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IntentHandler.swift,
+			);
+			target = AAFAC3542DDA467E00C44E22 /* Pick a Bite */;
+		};
+		AAFAC4162DDAB17600C44E22 /* Exceptions for "Pick a Bite iOS Intent" folder in "Pick a Bite iOS Intent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AAFAC4092DDAB17600C44E22 /* Pick a Bite iOS Intent */;
+		};
+		AAFAC4182DDAB1C200C44E22 /* Exceptions for "Shared" folder in "Pick a Bite iOS Intent" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				GetRandomFoodTenantIntentHandler.swift,
+				Intents.intentdefinition,
+			);
+			target = AAFAC4092DDAB17600C44E22 /* Pick a Bite iOS Intent */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AAFAC3572DDA467E00C44E22 /* Pick a Bite */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Pick a Bite";
+			sourceTree = "<group>";
+		};
+		AAFAC36A2DDA46DD00C44E22 /* Pick a Bite Watch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pick a Bite Watch";
+			sourceTree = "<group>";
+		};
+		AAFAC38F2DDA492600C44E22 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAFAC3B02DDA4B0800C44E22 /* Exceptions for "Shared" folder in "Pick a Bite Watch" target */,
+				AAFAC3BA2DDA4C6700C44E22 /* Exceptions for "Shared" folder in "Pick a Bite Intent" target */,
+				AAFAC4182DDAB1C200C44E22 /* Exceptions for "Shared" folder in "Pick a Bite iOS Intent" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AAFAC39C2DDA4A3F00C44E22 /* Pick a Bite Watch Intent */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAFAC3F22DDAAD4700C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite" target */,
+				AAFAC3A92DDA4A6D00C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite Watch" target */,
+				AAFAC3A62DDA4A3F00C44E22 /* Exceptions for "Pick a Bite Watch Intent" folder in "Pick a Bite Intent" target */,
+			);
+			path = "Pick a Bite Watch Intent";
+			sourceTree = "<group>";
+		};
+		AAFAC40C2DDAB17600C44E22 /* Pick a Bite iOS Intent */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AAFAC4162DDAB17600C44E22 /* Exceptions for "Pick a Bite iOS Intent" folder in "Pick a Bite iOS Intent" target */,
+			);
+			path = "Pick a Bite iOS Intent";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +198,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAFAC3662DDA46DD00C44E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3952DDA4A3F00C44E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFAC39B2DDA4A3F00C44E22 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC4072DDAB17600C44E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFAC40B2DDAB17600C44E22 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		AAFAC34C2DDA467E00C44E22 = {
 			isa = PBXGroup;
 			children = (
+				AAFAC38F2DDA492600C44E22 /* Shared */,
 				AAFAC3572DDA467E00C44E22 /* Pick a Bite */,
+				AAFAC36A2DDA46DD00C44E22 /* Pick a Bite Watch */,
+				AAFAC39C2DDA4A3F00C44E22 /* Pick a Bite Watch Intent */,
+				AAFAC40C2DDAB17600C44E22 /* Pick a Bite iOS Intent */,
+				AAFAC3992DDA4A3F00C44E22 /* Frameworks */,
 				AAFAC3562DDA467E00C44E22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +241,19 @@
 			isa = PBXGroup;
 			children = (
 				AAFAC3552DDA467E00C44E22 /* Pick a Bite.app */,
+				AAFAC3692DDA46DD00C44E22 /* Pick a Bite Watch.app */,
+				AAFAC3982DDA4A3F00C44E22 /* Pick a Bite Intent.appex */,
+				AAFAC40A2DDAB17600C44E22 /* Pick a Bite iOS Intent.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFAC3992DDA4A3F00C44E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAFAC39A2DDA4A3F00C44E22 /* Intents.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,13 +266,19 @@
 				AAFAC3512DDA467E00C44E22 /* Sources */,
 				AAFAC3522DDA467E00C44E22 /* Frameworks */,
 				AAFAC3532DDA467E00C44E22 /* Resources */,
+				AAFAC3772DDA46DE00C44E22 /* Embed Watch Content */,
+				AAFAC3D32DDA4F9800C44E22 /* Embed Foundation Extensions */,
+				AAFAC4052DDAB15000C44E22 /* Embed ExtensionKit Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AAFAC3722DDA46DE00C44E22 /* PBXTargetDependency */,
+				AAFAC4112DDAB17600C44E22 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AAFAC3572DDA467E00C44E22 /* Pick a Bite */,
+				AAFAC38F2DDA492600C44E22 /* Shared */,
 			);
 			name = "Pick a Bite";
 			packageProductDependencies = (
@@ -69,6 +286,74 @@
 			productName = "Pick a Bite";
 			productReference = AAFAC3552DDA467E00C44E22 /* Pick a Bite.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AAFAC3682DDA46DD00C44E22 /* Pick a Bite Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFAC3742DDA46DE00C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite Watch" */;
+			buildPhases = (
+				AAFAC3652DDA46DD00C44E22 /* Sources */,
+				AAFAC3662DDA46DD00C44E22 /* Frameworks */,
+				AAFAC3672DDA46DD00C44E22 /* Resources */,
+				AAFAC3A72DDA4A3F00C44E22 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFAC3A12DDA4A3F00C44E22 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AAFAC36A2DDA46DD00C44E22 /* Pick a Bite Watch */,
+			);
+			name = "Pick a Bite Watch";
+			packageProductDependencies = (
+			);
+			productName = "Pick a Bite Watch Watch App";
+			productReference = AAFAC3692DDA46DD00C44E22 /* Pick a Bite Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFAC3972DDA4A3F00C44E22 /* Pick a Bite Intent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFAC3A32DDA4A3F00C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite Intent" */;
+			buildPhases = (
+				AAFAC3942DDA4A3F00C44E22 /* Sources */,
+				AAFAC3952DDA4A3F00C44E22 /* Frameworks */,
+				AAFAC3962DDA4A3F00C44E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAFAC39C2DDA4A3F00C44E22 /* Pick a Bite Watch Intent */,
+			);
+			name = "Pick a Bite Intent";
+			packageProductDependencies = (
+			);
+			productName = "Pick a Bite Watch Intent";
+			productReference = AAFAC3982DDA4A3F00C44E22 /* Pick a Bite Intent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AAFAC4092DDAB17600C44E22 /* Pick a Bite iOS Intent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFAC4132DDAB17600C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite iOS Intent" */;
+			buildPhases = (
+				AAFAC4062DDAB17600C44E22 /* Sources */,
+				AAFAC4072DDAB17600C44E22 /* Frameworks */,
+				AAFAC4082DDAB17600C44E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAFAC40C2DDAB17600C44E22 /* Pick a Bite iOS Intent */,
+			);
+			name = "Pick a Bite iOS Intent";
+			packageProductDependencies = (
+			);
+			productName = "Pick a Bite iOS Intent";
+			productReference = AAFAC40A2DDAB17600C44E22 /* Pick a Bite iOS Intent.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +366,15 @@
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					AAFAC3542DDA467E00C44E22 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AAFAC3682DDA46DD00C44E22 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AAFAC3972DDA4A3F00C44E22 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AAFAC4092DDAB17600C44E22 = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
@@ -100,12 +394,36 @@
 			projectRoot = "";
 			targets = (
 				AAFAC3542DDA467E00C44E22 /* Pick a Bite */,
+				AAFAC3682DDA46DD00C44E22 /* Pick a Bite Watch */,
+				AAFAC3972DDA4A3F00C44E22 /* Pick a Bite Intent */,
+				AAFAC4092DDAB17600C44E22 /* Pick a Bite iOS Intent */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AAFAC3532DDA467E00C44E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3672DDA46DD00C44E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3962DDA4A3F00C44E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC4082DDAB17600C44E22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +440,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAFAC3652DDA46DD00C44E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC3942DDA4A3F00C44E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFAC4062DDAB17600C44E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFAC3722DDA46DE00C44E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFAC3682DDA46DD00C44E22 /* Pick a Bite Watch */;
+			targetProxy = AAFAC3712DDA46DE00C44E22 /* PBXContainerItemProxy */;
+		};
+		AAFAC3A12DDA4A3F00C44E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFAC3972DDA4A3F00C44E22 /* Pick a Bite Intent */;
+			targetProxy = AAFAC3A02DDA4A3F00C44E22 /* PBXContainerItemProxy */;
+		};
+		AAFAC4112DDAB17600C44E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFAC4092DDAB17600C44E22 /* Pick a Bite iOS Intent */;
+			targetProxy = AAFAC4102DDAB17600C44E22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AAFAC3602DDA467E00C44E22 /* Debug */ = {
@@ -251,11 +608,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pick a Bite/Pick a Bite.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BWQ84S563U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick-a-Bite-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,11 +638,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pick a Bite/Pick a Bite.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BWQ84S563U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick-a-Bite-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +657,174 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAFAC3752DDA46DE00C44E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pick a Bite Watch/Pick a Bite Watch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick-a-Bite-Watch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.abimanyu.Pick-a-Bite";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		AAFAC3762DDA46DE00C44E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Pick a Bite Watch/Pick a Bite Watch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick-a-Bite-Watch-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.abimanyu.Pick-a-Bite";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		AAFAC3A42DDA4A3F00C44E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick a Bite Watch Intent/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite Watch Intent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.watchkitapp.Pick-a-Bite-Watch-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		AAFAC3A52DDA4A3F00C44E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick a Bite Watch Intent/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite Watch Intent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.watchkitapp.Pick-a-Bite-Watch-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		AAFAC4142DDAB17600C44E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick a Bite iOS Intent/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite iOS Intent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.Pick-a-Bite-iOS-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFAC4152DDAB17600C44E22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BWQ84S563U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pick a Bite iOS Intent/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pick a Bite iOS Intent";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.abimanyu.Pick-a-Bite.Pick-a-Bite-iOS-Intent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,6 +848,33 @@
 			buildConfigurations = (
 				AAFAC3632DDA467E00C44E22 /* Debug */,
 				AAFAC3642DDA467E00C44E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFAC3742DDA46DE00C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFAC3752DDA46DE00C44E22 /* Debug */,
+				AAFAC3762DDA46DE00C44E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFAC3A32DDA4A3F00C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite Intent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFAC3A42DDA4A3F00C44E22 /* Debug */,
+				AAFAC3A52DDA4A3F00C44E22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFAC4132DDAB17600C44E22 /* Build configuration list for PBXNativeTarget "Pick a Bite iOS Intent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFAC4142DDAB17600C44E22 /* Debug */,
+				AAFAC4152DDAB17600C44E22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
